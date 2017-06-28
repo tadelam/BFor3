@@ -200,6 +200,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Migrations\201706281555345_first.cs" />
+    <Compile Include="Migrations\201706281555345_first.designer.cs">
+      <DependentUpon>201706281555345_first.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\AspNetRole.cs">
       <DependentUpon>BForModel.tt</DependentUpon>
     </Compile>
@@ -506,6 +510,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706281150428_Migration2.resx">
       <DependentUpon>201706281150428_Migration2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706281555345_first.resx">
+      <DependentUpon>201706281555345_first.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
